@@ -1,0 +1,44 @@
+{
+  "name": "ESP32-IDeviceInstance",
+  "version": "0.1.0",
+  "description": "Abstract device interface for standardized device interaction in ESP32/FreeRTOS environments",
+  "keywords": [
+    "device",
+    "interface",
+    "esp32",
+    "freertos",
+    "thread-safe",
+    "async",
+    "abstraction",
+    "modbus"
+  ],
+  "authors": [
+    {
+      "name": "packerlschupfer",
+      "email": "packerlschupfer@noreply.github.com",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/packerlschupfer/ESP32-IDeviceInstance.git"
+  },
+  "homepage": "https://github.com/packerlschupfer/ESP32-IDeviceInstance",
+  "license": "MIT",
+  "frameworks": [
+    "arduino",
+    "espidf"
+  ],
+  "platforms": [
+    "espressif32"
+  ],
+  "headers": "IDeviceInstance.h",
+  "dependencies": {
+    "ESP32-LibraryCommon": "file:///home/mrnice/.platformio/lib/ESP32-LibraryCommon"
+  },
+  "export": {
+    "include": [
+      "src/*"
+    ]
+  }
+}
