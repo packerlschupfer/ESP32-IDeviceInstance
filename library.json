@@ -24,7 +24,7 @@
     "url": "https://github.com/packerlschupfer/ESP32-IDeviceInstance.git"
   },
   "homepage": "https://github.com/packerlschupfer/ESP32-IDeviceInstance",
-  "license": "MIT",
+  "license": "GPL-3",
   "frameworks": [
     "arduino",
     "espidf"
